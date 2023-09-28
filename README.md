@@ -30,7 +30,9 @@
 ## Our Contributors  !! ✨
 #### Thanks to these wonderful people: ✨
 
-![](https://contrib.rocks/image?repo=DSC-JSS-NOIDA/RAPIDHIRE-2.0)
+<a href="https://github.com/DSC-JSS-NOIDA/RAPIDHIRE-2.0/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DSC-JSS-NOIDA/RAPIDHIRE-2.0" />
+</a>
 
 ## Set up and contribute in RapidHire⚙️
 
