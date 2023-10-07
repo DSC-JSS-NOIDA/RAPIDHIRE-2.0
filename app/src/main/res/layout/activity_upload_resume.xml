@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".UploadResumeActivity">
+    tools:context=".UploadResumeActivity"
+    android:background="@drawable/gradient">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,19 +19,20 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:layout_width="263dp"
+            android:layout_height="293dp"
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/online_resume"/>
+            android:src="@drawable/img" />
+
         <TextView
             android:id="@+id/uploadtv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Upload Your Resume"
-            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_upload"
             android:drawablePadding="2dp"
-            android:drawableEnd="@drawable/ic_upload"/>
+            android:text="Upload Your Resume"
+            android:textColor="@color/white" />
         <Button
             android:id="@+id/submitBtn"
             android:layout_width="match_parent"
