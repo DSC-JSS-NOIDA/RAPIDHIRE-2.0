@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
+    android:background="@drawable/gradient"
     tools:context=".UploadResumeActivity">
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,19 +22,21 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:layout_width="233dp"
+            android:layout_height="291dp"
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/online_resume"/>
+            android:src="@drawable/img_1" />
+
         <TextView
             android:id="@+id/uploadtv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Upload Your Resume"
-            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_upload"
             android:drawablePadding="2dp"
-            android:drawableEnd="@drawable/ic_upload"/>
+            android:text="Upload Your Resume"
+            android:textColor="@color/white" />
+
         <Button
             android:id="@+id/submitBtn"
             android:layout_width="match_parent"
@@ -38,7 +44,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_margin="15dp"
-            android:backgroundTint="#266E85"
+            android:backgroundTint="#07293E"
             android:text="Submit"
             android:textAllCaps="false"
             android:textSize="18sp"
